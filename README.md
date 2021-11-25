@@ -9,26 +9,21 @@ npm run dev
 # or
 yarn dev
 ```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+## Deployed to Netlify 
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+[https://faradayai.boskind.tech/](https://faradayai.boskind.tech/)
+## Instructions for exercise
 
-## Learn More
+The product team has come to you with a request for a new product. They want a web app that shows a listing of Faraday’s public GitHub repositories ([https://github.com/faradayio](https://github.com/faradayio)), powered by data from GitHub’s API.
 
-To learn more about Next.js, take a look at the following resources:
+There is no design spec for this yet, because it’s a last-minute thing, but you learn the following:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+-   It should be easy for a user to sift through the repositories or find a specific repository they might be interested in.
+-   Clicking a repository will take you to the repository’s page on GitHub.
+-   There’s no design spec but it should have some basic styles.
+-   Accessibility and responsiveness are important, but not critical.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+You are encouraged to use React and Typescript to complete this app, but please do not take more than two hours. You may use whatever other libraries you wish. The app can be returned as a `.zip` file or as a GitHub repository.

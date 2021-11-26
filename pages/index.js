@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import DisplayRepos from '../componenets/displayRepos'
+import DisplayRepos from '../components/displayRepos'
 import styles from '../styles/Home.module.css'
 import { useState } from 'react'
 import Image from 'next/image'
